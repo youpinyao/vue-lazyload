@@ -10,9 +10,9 @@ new Vue({
       }
     },
     created () {
-      // setTimeout(() => {
-      //   this.img = 'http://sc.seeyouyima.com/activity/20180906/5b911a5c5363e_200_200.jpg'
-      // }, 1000)
+      setTimeout(() => {
+        this.img = 'http://sc.seeyouyima.com/activity/20180906/5b911a5c5363e_200_200.jpg'
+      }, 1000)
     },
     template: require('./app.html')
   }))
