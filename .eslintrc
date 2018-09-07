@@ -4,5 +4,9 @@
     "browser": true,
     "es6": true,
     "mocha": true
+  },
+  "rules": {
+    "space-before-function-paren": [0],
+    "no-debugger": [0]
   }
 }
